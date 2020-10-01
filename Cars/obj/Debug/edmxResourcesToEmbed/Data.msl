@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AutaModelStoreContainer" CdmEntityContainer="AutaEntities">
+    <EntitySetMapping Name="Autas">
+      <EntityTypeMapping TypeName="AutaModel.Auta">
+        <MappingFragment StoreEntitySet="Auta">
+          <ScalarProperty Name="OC" ColumnName="OC" />
+          <ScalarProperty Name="Ubezpieczenie" ColumnName="Ubezpieczenie" />
+          <ScalarProperty Name="Numer" ColumnName="Numer" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
